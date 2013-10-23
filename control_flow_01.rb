@@ -1,3 +1,4 @@
+
 for animal in %w(dog cat horse goat rabbit mouse mole) do
 	next if animal == "cat"
 	puts "The current animal is #{animal}"
@@ -14,8 +15,7 @@ loop do
 	print "Enter your name: "
 	name = gets.chomp
 	if name == "Jason"
-		name.downcase
-		puts "Hi #{name}", we've been expecting you."
+		puts "Hi #{name}, we've been expecting you."
 		break
 	end
 end
